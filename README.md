@@ -46,7 +46,7 @@ This project demonstrates concepts of Core Java, JDBC, OOPS, Exception Handling,
 ## 🛠️ Technologies Used
 - Java (Core Java)
 - JDBC
-- MySQL Database
+- PL/SQL Database
 - AES Encryption
 - Eclipse IDE
 - Git & GitHub
