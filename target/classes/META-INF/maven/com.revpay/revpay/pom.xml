@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.revpay</groupId>
+  <artifactId>revpay</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>RevPay</name>
+  <description>Console-based Digital Payment Application</description>
+  <dependencies>
+
+    <!-- Oracle JDBC -->
+    <dependency>
+        <groupId>com.oracle.database.jdbc</groupId>
+        <artifactId>ojdbc8</artifactId>
+        <version>21.5.0.0</version>
+    </dependency>
+
+    <!-- Log4j -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.20.0</version>
+    </dependency>
+
+    <!-- JUnit -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.9.2</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- BCrypt -->
+    <dependency>
+        <groupId>org.mindrot</groupId>
+        <artifactId>jbcrypt</artifactId>
+        <version>0.4</version>
+    </dependency>
+
+</dependencies>
+
+</project>
