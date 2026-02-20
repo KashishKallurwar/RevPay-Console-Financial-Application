@@ -51,32 +51,29 @@ This project demonstrates concepts of Core Java, JDBC, OOPS, Exception Handling,
 - Eclipse IDE
 - Git & GitHub
 
----
+## 📁 Project Structure
 
-## 🗂️ Project Structure
-
-
+```
 revpay/
 │
 ├── src/
 │   ├── dao/
 │   │   ├── UserDao.java
-│   │   ├── PaymentMethodDao.java
+│   │   └── PaymentMethodDao.java
 │   │
 │   ├── model/
 │   │   ├── User.java
-│   │   ├── Transaction.java
+│   │   └── Transaction.java
 │   │
 │   ├── service/
-│   │   ├── UserService.java
+│   │   └── UserService.java
 │   │
-│   ├── util/
-│   │   ├── DBConnection.java
-│   │   ├── EncryptionUtil.java
+│   └── util/
+│       ├── DBConnection.java
+│       └── EncryptionUtil.java
 │
 └── Main.java
-
----
+```
 
 ## 🔐 Security Features
 - AES Encryption for sensitive data
