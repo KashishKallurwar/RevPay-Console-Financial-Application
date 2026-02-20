@@ -54,31 +54,27 @@ This project demonstrates concepts of Core Java, JDBC, OOPS, Exception Handling,
 ---
 
 ## 🗂️ Project Structure
-'''
+
 
 revpay/
 │
-├── dao/
-│ ├── UserDao.java
-│ ├── PaymentMethodDao.java
-│ └── TransactionDao.java
-│
-├── model/
-│ ├── User.java
-│ ├── Transaction.java
-│ └── PaymentMethod.java
-│
-├── service/
-│ ├── UserService.java
-│ ├── TransactionService.java
-│
-├── util/
-│ ├── DBConnection.java
-│ ├── EncryptionUtil.java
+├── src/
+│   ├── dao/
+│   │   ├── UserDao.java
+│   │   ├── PaymentMethodDao.java
+│   │
+│   ├── model/
+│   │   ├── User.java
+│   │   ├── Transaction.java
+│   │
+│   ├── service/
+│   │   ├── UserService.java
+│   │
+│   ├── util/
+│   │   ├── DBConnection.java
+│   │   ├── EncryptionUtil.java
 │
 └── Main.java
-'''
-
 
 ---
 
